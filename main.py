@@ -21,4 +21,4 @@ tab2 = create_tab(data, 'Usuários')
 tabs = Tabs(tabs = [tab1, tab2])
 
 # Put the tabs in the current document for display
-curdoc().add_root(tabs)
+curdoc().add_root(tabs, name="maintab")
